@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Jose
+  last_name: Reyes
+  
+  # Define yourself in 4-5 words
+  motto: "Just bring me some coffee"
+  
+  # Focus
+  focus: "Music Is Life, Coding is Freedom"
+  
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: "Computer Science Engineer with over 8 years of experience in IT system support, cloud architectures, and ERP solutions. Skilled in managing technical support teams, designing custom ERP solutions (Claris FileMaker), and optimizing processes through data analysis (Power BI, Excel). Full Stack developer in progress."
+  
+  # Your profile picture URL
+  avatar: "https://avatars.githubusercontent.com/u/181907476?s=400&u=a0a218e2624564ac432cc2f68c2f9efd305509de&v=4"
+
+  # Contact Information
+  email: "jreyesborjas86@gmail.com" # optional
+  phone: "937 353 ***" # optional
+  website: "https://github.com/reyesborjas" # optional
+  linkedin: "reyesborjas86" # optional
+  
+  # ******** IMPORTANT *******
+  # This GitHub username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: "reyesborjas"
+  
+  twitter: "" # optional
+  stack-overflow: "" # optional
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: "English"
+      level: "Professional"
+    - idiom: "Italian"
+      level: "Professional"
+    - idiom: "Spanish"
+      level: "Native"
+
+  # Interests or hobbies
+  interests:
+    - item: "Trekking"
+    - item: "Rappelling"
+    - item: "Cooking"
+
+# Your previous education
+education:
+  - degree: "Engineering in Computer Science"
+    university: "Rafael Belloso Chacin University"
+    university_logo: "https://images.app.goo.gl/cypXZjCMes5Mgtg8A"
+    time: "2009 - 2014"
+    details: |
+      The Computer Science Engineer from the Universidad Privada Dr. Rafael Belloso Chacín is trained to assess organizational information needs and design and implement automated systems that reliably and promptly provide the information required for decision-making at tactical, strategic, and operational levels.
+      In research, design, and experimentation, they develop new theories to improve system development, operation, and maintenance activities, as well as to leverage new technologies and their potential.
+      They participate in identifying needs for adaptation, improvement, or design of transmission systems, automation processes, and data storage and retrieval. Additionally, they engage at various organizational levels in data selection and processing, coordinating integrated management to enable companies to adapt to ever-changing situations.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: "Consultant (Remote)"
+    time: "2023 - 2024"
+    company: "Infosys SPA, Santiago CL"
+    company_logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg"
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      - Reduced daily tickets from 150 to 70 through preventive analysis.
+      - Excel, MyPass, SaaS platforms
+
+  - role: "IT Specialist"
+    time: "2019 - 2023"
+    company: "Maipofoods, Rengo"
+    company_logo: "https://en.maipofoods.com/wp-content/uploads/2020/01/cropped-logo-maipofoods_color-1.png"
+    details: |
+      Developed and managed a custom ERP system for production. Oversaw data analysis using Power BI and Excel.
+      - Designed an ERP system that optimized production and inventory management.
+      - Claris FileMaker, Excel, Power BI, SQL
+
+  - role: "Technical Support Consultant"
+    time: "2019 - 2019"
+    company: "Adexus, Santiago"
+    company_logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFBCvRIC4F8oQ/company-logo_200_200/company-logo_200_200/0/1630473297908/adexus_logo?e=2147483647&v=beta&t=jKUAxmxjfhv1bDgQ71ckUs1h1bXyUrsNvNlmBLtvPv0"
+    details: |
+      Level 1 remote support for telecommunications and computing systems at WOM.
+      - Met SLA targets with above-average performance.
+      - HP Service Manager
+
+# Your project portfolio
+projects:
+  intro: "4Geeks Academy projects"
+  assignments:
+    - title: "Instagram Post"
+      link: "https://github.com/reyesborjas/InstagramPostLayout-JARB.git"
+      tagline: "A responsive website template designed to understand how Bootstrap works."
+    - title: "Ciudades del Mundo"
+      link: "https://github.com/reyesborjas/WebsiteColaborativa.git"
+      tagline: "A responsive website template designed to show how the students use GitHub and their web development skills."
+
+# Skills section
+skills:
+  toolset:
+    - name: "Python & Django"
+      level: "50%"
+    - name: "JavaScript"
+      level: "80%"
+    - name: "React and Node.Js"
+      level: "80%"
+    - name: "HTML5 & CSS"
+      level: "95%"
